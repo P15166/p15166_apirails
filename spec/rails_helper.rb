@@ -80,6 +80,8 @@ RSpec.configure do |config|
     end
   end
   
+  config.include RequestSpecHelper
+  config.include ControllerSpecHelper
   
   config.infer_spec_type_from_file_location!
 
